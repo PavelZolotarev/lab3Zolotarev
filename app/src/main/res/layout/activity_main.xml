@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_view_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать записи" />
+
+    <Button
+        android:id="@+id/button_add_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить запись" />
+
+    <Button
+        android:id="@+id/button_update_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить последнюю запись" />
+</LinearLayout>
